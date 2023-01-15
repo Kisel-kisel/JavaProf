@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-lesson-prof.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork5/PensionFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork5/PensionFund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork5/isItGoverment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork5/IsItGoverment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2JmW8YuwJVH3wq4oSXV0I2tq1XI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

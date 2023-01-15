@@ -1,16 +1,24 @@
 package homeWorks.homeWork5;
 
-import homeWorks.homeWork2.PensionFund;
+
+import static homeWorks.homeWork5.IsItGoverment.*;
 
 public class Main {
     public static void main(String[] args) {
-        homeWorks.homeWork2.PensionFund goverment = new homeWorks.homeWork2.PensionFund("Goverment", true, "11.11.1900");
-        homeWorks.homeWork2.PensionFund notGoverment = new PensionFund("not goverment", false, "20.20.1999");
+        PensionFund person = new PensionFund("GOVERMRNT",GOVERMENT,"12-06-2000");
+        PensionFund person1 = new PensionFund("NOTGOVERMRNT",NOTGOVERMENT,"12-06-2000");
+        PensionFund person2 = new PensionFund("SCAMMERS",SCAMMERS,"12-06-2000");
 
-        double govermentPension = goverment.countOfPension(20,2000,4000);
-        double notGovermentPension = notGoverment.countOfPension(20, 2000, 4000);
+        double moneyPerson = person.countOfPension(70,3000,5000);
+        double moneyPerson1 = person1.countOfPension(70,3000,5000);
+        double moneyPerson2 = person2.countOfPension(70,3000,5000);
 
-        System.out.println(govermentPension);
-        System.out.println(notGovermentPension);
+
+        System.out.println(moneyPerson);
+        System.out.println(moneyPerson1);
+        System.out.println(moneyPerson2);
+
+
+
     }
 }

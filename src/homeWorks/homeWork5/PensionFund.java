@@ -6,8 +6,16 @@ public class PensionFund {
     private final static double COEFF = 0.02;
     private static final int MIDDLE_SALARY = 1500;
     private String freeMoney;
-    private isItGoverment isItGoverment;
+    private IsItGoverment isItGoverment;
     private final String dateOfCreate;
+
+    public IsItGoverment getIsItGoverment() {
+        return isItGoverment;
+    }
+
+    public void setIsItGoverment(IsItGoverment isItGoverment) {
+        this.isItGoverment = isItGoverment;
+    }
 
     public PensionFund(String dateOfCreate) {
         this.dateOfCreate = dateOfCreate;
@@ -17,28 +25,28 @@ public class PensionFund {
         this.freeMoney = freeMoney;
     }
 
-//        public PensionFund(String freeMoney, Boolean isItGoverment, String dateOfCreate) {
-//            this.freeMoney = freeMoney;
-//            this.isItGoverment = isItGoverment;
-//            this.dateOfCreate = dateOfCreate;
-//        }
+        public PensionFund(String freeMoney, IsItGoverment isItGoverment, String dateOfCreate) {
+            this.freeMoney = freeMoney;
+            this.isItGoverment = isItGoverment;
+            this.dateOfCreate = dateOfCreate;
+        }
 
 
-    public void countOfPension(int age, double minSalary, double maxSalary) {
-        double count;
+    public double countOfPension(int age, double minSalary, double maxSalary) {
+        double count = 0;
         switch (isItGoverment) {
             case GOVERMENT:
-                count = homeWorks.homeWork5.MiddleUtils.middle(minSalary, maxSalary) * age * COEFF;
-                System.out.println(count);
-                break;
-            case NOTGOVERMRNT:
+                count = MiddleUtils.middle(minSalary, maxSalary) * age * COEFF;
+            break;
+            case NOTGOVERMENT:
                 count = MiddleUtils.middle(minSalary, maxSalary, MIDDLE_SALARY) * age * COEFF;
-                System.out.println(count);
-                break;
-            case SCAMMERSS:
+
+            break;
+            case SCAMMERS:
                 count = 0;
-                System.out.println(count);
         }
+        return count;
+    }
 //            if (isItGoverment) {
 //                count = homeWorks.homeWork5.MiddleUtils.middle(minSalary, maxSalary) * age * COEFF;
 //            } else {
@@ -46,6 +54,5 @@ public class PensionFund {
 //            }
 //            return count;
 //        }
-    }
 }
 
