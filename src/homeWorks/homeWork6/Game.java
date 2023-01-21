@@ -42,14 +42,7 @@ public class Game {
                         System.out.println("Вы попали two");
 
                 }
-//                if (shot == 0) {
-//                    System.out.println("Вы не попали");
-//                }
-//                else {
-//                    System.out.println("Вы попали");
-//                    countOfShipsKilled++;
-//                    countOfPoints += 4;
-//                }
+
             }
             else {
                 System.out.println("Что-то куда-то не туда");
