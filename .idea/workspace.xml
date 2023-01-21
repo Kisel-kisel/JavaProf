@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="QQ">
+    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="lesson 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson6/BattleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson6/BattleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="homeWorks.homeWork4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BattleMain">
+  <component name="RunManager" selected="Application.homeWorks.homeWork6.Main">
     <configuration name="BattleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.lesson6.BattleMain" />
       <module name="first-lesson-prof" />
@@ -72,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork4.Main" />
+    <configuration name="MainEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson7.MainEx" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork4.*" />
+          <option name="PATTERN" value="lessons.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.example.MainForExample" />
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson7.Task" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.example.*" />
+          <option name="PATTERN" value="lessons.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWorks.homeWorks3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWorks3.Main" />
+    <configuration name="homeWorks.homeWork6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork6.Main" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.homeWorks3.*" />
+          <option name="PATTERN" value="homeWorks.homeWork6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWorks.homeWork6.Main" />
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Application.MainEx" />
         <item itemvalue="Application.BattleMain" />
         <item itemvalue="Application.homeWorks.homeWork5.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homeWorks.homeWorks3.Main" />
-        <item itemvalue="Application.MainForExample" />
       </list>
     </recent_temporary>
   </component>
@@ -150,12 +151,27 @@
       <option name="project" value="LOCAL" />
       <updated>1673790275377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 6">
+      <created>1673902918971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673902918971</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 6">
+      <created>1673903055965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673903055965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="QQ" />
+    <MESSAGE value="lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -170,12 +186,25 @@
           <line>2</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWorks/homeWork6/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/first_lesson_prof$MainForExample.ic" NAME="MainForExample Coverage Results" MODIFIED="1673117681937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>homeWorks.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/first_lesson_prof$homeWorks_homeWork6_Main.ic" NAME="homeWorks.homeWork6.Main Coverage Results" MODIFIED="1674312885687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homeWorks.homeWork6.*</FILTER>
     </SUITE>
   </component>
 </project>
