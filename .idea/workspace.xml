@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork7">
+    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson6/FieldGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson6/FieldGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,15 +201,22 @@
       <option name="project" value="LOCAL" />
       <updated>1674414569605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homeWork6">
+      <created>1674418323378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674418323378</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QQ" />
     <MESSAGE value="lesson 6" />
-    <MESSAGE value="homeWork6" />
     <MESSAGE value="homeWork7" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork7" />
+    <MESSAGE value="homeWork6" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,7 +233,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
