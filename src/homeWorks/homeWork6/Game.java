@@ -34,12 +34,12 @@ public class Game {
                     case 1:
                         countOfPoints += 4;
                         countOfShipsKilledOne++;
-                        System.out.println("Вы попали one");
+                        System.out.println("Вы попали в однопалубник!");
                         break;
                     case 2:
                         countOfPoints += 3;
                         countOfShipsKilledTwo++;
-                        System.out.println("Вы попали two");
+                        System.out.println("Вы попали в двупалубник!");
 
                 }
 //                if (shot == 0) {

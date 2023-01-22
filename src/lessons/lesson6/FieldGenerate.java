@@ -17,29 +17,31 @@ public class FieldGenerate {
         Random random = new Random();
         int[][] field = new int[length][width];
 
-        int countOfShip = 0;
-        while (countOfShip < 100) {
-            int a = random.nextInt(0, length);
-            int b = random.nextInt(0, width);
-
-            if (field[a][b] == 0) {
-                field[a][b] = 1;
-                countOfShip++;
-            }
-        }
-
-//        for (int i = 0; i < 100; i++) {
-//            int a = random.nextInt(0,length);
-//            int b = random.nextInt(0,width);
+        int countOfShipsOne = 0;
+        int countOfShipsTwo = 0;
+//        while (countOfShip < 4) {
+//            int a = random.nextInt(0, length);
+//            int b = random.nextInt(0, width);
 //
-//            if (field[a][b] == 1){
-//                i--;
-//            }else{
+//
+//            if (field[a][b] == 0) {
 //                field[a][b] = 1;
+//                countOfShip++;
 //            }
-//
-//            field[a][b] = 1;
 //        }
+
+        for (int i = 0; i < 1; i++) {
+            int a = random.nextInt(0,length);
+            int b = random.nextInt(0,width);
+
+            if (field[a][b] == 1){
+                i--;
+            }else{
+                field[a][b] = 1;
+            }
+
+            field[a][b] = 1;
+        }
 
 
 
