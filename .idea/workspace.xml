@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="lesson 6">
+    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson6/BattleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson6/BattleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/FieldGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson7/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson7/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,7 +63,7 @@
       <recent name="homeWorks.homeWork4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWorks.homeWork6.Main">
+  <component name="RunManager" selected="Application.Task">
     <configuration name="BattleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.lesson6.BattleMain" />
       <module name="first-lesson-prof" />
@@ -73,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork7.Main" />
+      <module name="first-lesson-prof" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWorks.homeWork7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.lesson7.MainEx" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons.lesson7.*" />
+          <option name="PATTERN" value="homeWorks.homeWork7.TaskFromLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,24 +104,11 @@
       </method>
     </configuration>
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.lesson7.Task" />
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork7.TaskFromLesson.Task" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons.lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homeWorks.homeWork5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork5.Main" />
-      <module name="first-lesson-prof" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork5.*" />
+          <option name="PATTERN" value="homeWorks.homeWork7.TaskFromLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homeWorks.homeWork6.Main" />
         <item itemvalue="Application.Task" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.homeWorks.homeWork6.Main" />
         <item itemvalue="Application.MainEx" />
         <item itemvalue="Application.BattleMain" />
-        <item itemvalue="Application.homeWorks.homeWork5.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +169,35 @@
       <option name="project" value="LOCAL" />
       <updated>1673903055965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homeWork6">
+      <created>1674330274780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330274780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homeWork6">
+      <created>1674330451392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330451392</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homeWork6">
+      <created>1674330504736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330504736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QQ" />
     <MESSAGE value="lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 6" />
+    <MESSAGE value="homeWork6" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

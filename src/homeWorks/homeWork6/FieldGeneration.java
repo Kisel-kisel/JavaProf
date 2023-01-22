@@ -18,14 +18,16 @@ public class FieldGeneration {
         int countOfShipsOne = 0;
         int countOfShipsTwo = 0;
         int maxShipsTwo = 3;
-        while (countOfShipsOne <= maxShipsOne || countOfShipsTwo <= maxShipsTwo) {
-            int a = random.nextInt(0,length);
-            int b = random.nextInt(0,width);
-            int c = random.nextInt(0,length);
-            int d = random.nextInt(0,width);
+//         || countOfShipsTwo <= maxShipsTwo
+        while (countOfShipsOne <= maxShipsOne && countOfShipsTwo <= maxShipsTwo) {
+            int a = random.nextInt(1,length-1);
+            int b = random.nextInt(1,width-1);
+            int c = random.nextInt(1,length-1);
+            int d = random.nextInt(1,width-1);
             int c1 = c + 1;
             int d1 = d + 1;
-            if (field[a][b] == 0 ) {
+//            && countOfShipsTwo < 1
+            if (field[a][b] == 0 && countOfShipsTwo < 1 ) {
                 field[a][b] = 1;
                 field[c][d] = 2;
                 field[c1][d] = 2;
@@ -35,6 +37,7 @@ public class FieldGeneration {
                 field[c][d] = 2;
                 field[c][d1] = 2;
             }
+
             countOfShipsTwo++;
         }
 

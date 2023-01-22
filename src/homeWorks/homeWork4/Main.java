@@ -9,6 +9,7 @@ public class Main {
         worker.setAgeOfPerson(45);
         worker.setMaxSalary(2300);
         worker.setMinSalary(1000);
+        int x = worker.getAgeOfPerson() * 200;
 
         System.out.println(worker.calculatePension());
     }
