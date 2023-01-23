@@ -21,10 +21,10 @@ public class FieldGeneration {
         int totalShips = 7;
         int total = 0;
         while (total < totalShips) {
-            int a = random.nextInt(1,length-1);
-            int b = random.nextInt(1,width-1);
-            int c = random.nextInt(1,length-1);
-            int d = random.nextInt(1,width-1);
+            int a = random.nextInt(0,length-1);
+            int b = random.nextInt(0,width-1);
+            int c = random.nextInt(0,length-1);
+            int d = random.nextInt(0,width-1);
             int c1 = c + 1;
             int d1 = d + 1;
             if (field[a][b] == 0 && countOfShipsOne < maxShipsOne ) {
