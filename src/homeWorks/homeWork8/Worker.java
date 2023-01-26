@@ -58,10 +58,6 @@ public class Worker extends Person implements AbleToCalculatePension {
 
     public void myCompanies(){
         System.out.println("Я работал в следующих компаниях :");
-        Company company = new Company();
-        companies.add(company.getFirstCompany());
-        companies.add(company.getSecondCompany());
-        companies.add(company.getThriedCompany());
         for (String s : companies) {
             System.out.println(s);
         }

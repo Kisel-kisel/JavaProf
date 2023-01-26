@@ -12,6 +12,13 @@ public class Main {
         Worker worker = new Worker();
         List<String> countOfChild1 = new ArrayList<>();
         List<String> companies1 = new ArrayList<>();
+
+        Company company = new Company();
+        companies1.add(company.setName("Apple"));
+        companies1.add(company.setName("Google"));
+        companies1.add(company.setName("Asus"));
+
+
         countOfChild1.add("Pety");
         countOfChild1.add("Nasty");
         countOfChild1.add("Pes");
