@@ -1,6 +1,7 @@
 package homeWorks.homeWork7;
 
-import homeWorks.homeWork2.PensionFund;
+import homeWorks.homeWork5.IsItGoverment;
+import homeWorks.homeWork5.PensionFund;
 
 public class Worker extends Person implements AbleToCalculatePension {
 
@@ -34,7 +35,7 @@ public class Worker extends Person implements AbleToCalculatePension {
 
     @Override
     public double calculatePension() {
-        PensionFund pensionFund = new PensionFund("money", true, "01.01.2000");
+        PensionFund pensionFund = new PensionFund("money", IsItGoverment.GOVERMENT, "01.01.2000");
         int minSalaryWithChild = getCountOfChild().size() * 200 * minSalary;
         double state = pensionFund.countOfPension(getAgeOfPerson(),minSalaryWithChild, maxSalary);
         return state;

@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         Worker worker = new Worker();
         List<String> countOfChild1 = new ArrayList<>();
-        countOfChild1.add("qqq");
-        countOfChild1.add("WWW");
+        countOfChild1.add("Pety");
+        countOfChild1.add("Nasty");
         worker.setAgeOfPerson(45);
         worker.setMaxSalary(2300);
         worker.setMinSalary(1000);

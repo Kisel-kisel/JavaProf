@@ -1,4 +1,4 @@
-package homeWorks.homeWork8;
+package homeWorks.homeWork9;
 
 import java.util.Iterator;
 import java.util.List;
@@ -97,6 +97,4 @@ public abstract class Person {
     }
 
 }
-
-
 
