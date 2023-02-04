@@ -14,11 +14,6 @@ public class MainExis {
         List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new LinkedList<>();
         LinkedList<Integer> list3 = new LinkedList<>();//полиморфизм
-
-
-
-
-
         array[0] = 1;
         array[1] = 2;
         array[2] = 5;
@@ -29,17 +24,20 @@ public class MainExis {
         list.add(2);
         list.add(3);
         list.add(1,500);
-
-        list.set(3, 300);//заменяет
-        list.contains(1000);//boolean yes or no
         list.remove(0);
+        System.out.println(list);
 
-        int a = list.get(1);
 
-        System.out.println(a);
+//        list.set(3, 300);//заменяет
+//        list.contains(1000);//boolean yes or no
 
-        int len = array.length;
-        int len1 = list.size();
+
+//        int a = list.get(1);
+//
+//        System.out.println(a);
+//
+//        int len = array.length;
+//        int len1 = list.size();
 
 //        for (int i = 0; i < array.length; i++) {
 //            if (array[i] = 27){
@@ -47,8 +45,8 @@ public class MainExis {
 //                break;
 //            }
 //        }
-        int index = list.indexOf(27);
-        System.out.println(index);
+//        int index = list.indexOf(27);
+//        System.out.println(index);
 
 
 

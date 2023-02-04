@@ -15,9 +15,10 @@ public class Main {
         worker.setAgeOfPerson(45);
         worker.setMaxSalary(2300);
         worker.setMinSalary(1000);
-        worker.setCountOfChild(countOfChild1);
-        System.out.println( worker.getCountOfChild());
-        worker.die();
-        System.out.println(worker.calculatePension());
+        System.out.println(countOfChild1);
+//        worker.setCountOfChild(countOfChild1);
+//        System.out.println( worker.getCountOfChild());
+//        worker.die();
+//        System.out.println(worker.calculatePension());
     }
 }

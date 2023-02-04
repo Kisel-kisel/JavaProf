@@ -25,11 +25,11 @@ public class PensionFund {
         this.freeMoney = freeMoney;
     }
 
-        public PensionFund(String freeMoney, IsItGoverment isItGoverment, String dateOfCreate) {
-            this.freeMoney = freeMoney;
-            this.isItGoverment = isItGoverment;
-            this.dateOfCreate = dateOfCreate;
-        }
+    public PensionFund(String freeMoney, IsItGoverment isItGoverment, String dateOfCreate) {
+        this.freeMoney = freeMoney;
+        this.isItGoverment = isItGoverment;
+        this.dateOfCreate = dateOfCreate;
+    }
 
 
     public double countOfPension(int age, double minSalary, double maxSalary) {
@@ -37,22 +37,18 @@ public class PensionFund {
         switch (isItGoverment) {
             case GOVERMENT:
                 count = MiddleUtils.middle(minSalary, maxSalary) * age * COEFF;
-            break;
+                break;
             case NOTGOVERMENT:
                 count = MiddleUtils.middle(minSalary, maxSalary, MIDDLE_SALARY) * age * COEFF;
 
-            break;
+                break;
             case SCAMMERS:
                 count = 0;
         }
         return count;
     }
-//            if (isItGoverment) {
-//                count = homeWorks.homeWork5.MiddleUtils.middle(minSalary, maxSalary) * age * COEFF;
-//            } else {
-//                count = MiddleUtils.middle(minSalary, maxSalary, MIDDLE_SALARY) * age * COEFF;
-//            }
-//            return count;
-//        }
 }
+
+
+
 

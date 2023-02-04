@@ -30,7 +30,9 @@ public class Task {
         System.out.println(linked);
 
 //        2.
-        array.set(2, array.get(0));
+        int center = array.size()/5;
+        String first = array.get(0);
+        array.set(center, first);
 //        3.
         linked.addAll(array);
 //        4.

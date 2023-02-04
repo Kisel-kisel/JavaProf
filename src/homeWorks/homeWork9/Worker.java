@@ -4,6 +4,7 @@ import homeWorks.homeWork5.IsItGoverment;
 import homeWorks.homeWork5.PensionFund;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -51,7 +52,6 @@ public class Worker extends Person implements AbleToCalculatePension {
     public double calculatePension() {
         double bigerPrice = 0;
         for (PensionFund PensionFund : getPensionFunds()) {
-
             double minSalaryWithChild = getCountOfChild().size() * 200 * minSalary;
             double result = PensionFund.countOfPension(getAgeOfPerson(), minSalaryWithChild, maxSalary);
             if (result > bigerPrice) {
@@ -59,20 +59,8 @@ public class Worker extends Person implements AbleToCalculatePension {
             }
         }
 
-return bigerPrice;
+        return bigerPrice;
     }
-
-//        if(state >= state1 && state >= state2){
-//            return state;
-//        }else if (state1 > state && state1 > state2){
-//            return state1;
-//        } else{
-//            return state2;
-//        }
-
-
-
-
 
     public List<String> getCompanies() {
         return companies;
@@ -90,12 +78,4 @@ return bigerPrice;
     }
 }
 
-//1) Добавить в класс Worker поле - множество (Set) из Пенсионных фондов.
-//        2) Добавить для него гетер и сетер
-//        3) в методе расчета пенсии взять Set из пенсионных фондов и для каждого из них посчитать возможную пенсию,
-//        выбрать наиболее выгодное предложение и вернуть (return) из этого метода именно самое лучшее предложение
-//        (там, где больше всего заплатят). (как это реализовать - полностью на вашей совести)
-//        4) Создать в Main несколько работников и несколько сетов из пенсионных фондов. Заполнить каждому
-//        работнику доступные ему пенсионный фонды (см. пункт 1)
-//        5) запустить расчет пенсии
 
