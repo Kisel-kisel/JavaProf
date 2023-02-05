@@ -8,17 +8,16 @@ public abstract class Person {
     private int ageOfPerson;
     private int heightOfPerson;
     private int weightOfPerson;
-    private List<String> countOfChild;
-    private Iterator iterator;
 
-    public List<String> getCountOfChild() {
+    private Iterator iterator;
+    private List<Person> countOfChild;
+
+    public List<Person> getCountOfChild() {
         return countOfChild;
     }
-//    Iterator iterator = countOfChild.iterator();
 
-    public int setCountOfChild(List<String> countOfChild) {
+    public void setCountOfChild(List<Person> countOfChild) {
         this.countOfChild = countOfChild;
-        return 0;
     }
 
     public void setNameOfPerson(String nameOfPerson) {
@@ -88,9 +87,11 @@ public abstract class Person {
     }
 
     public void infoAboutChildren() {
-        System.out.println("У меня " + getCountOfChild().size() + " детей!");
-        for (String s : countOfChild) {
-            System.out.println(s);
+        int counter = 0;
+        System.out.println("У меня " + countOfChild.size() + " детей!");
+        for (Person s : countOfChild) {
+            counter++;
+            System.out.println(counter + ") " + s.nameOfPerson);
 
         }
 

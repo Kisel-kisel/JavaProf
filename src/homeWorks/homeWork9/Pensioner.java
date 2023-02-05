@@ -1,7 +1,5 @@
 package homeWorks.homeWork9;
 
-import homeWorks.homeWork8.Person;
-
 public class Pensioner extends Person {
     private double pension;
 

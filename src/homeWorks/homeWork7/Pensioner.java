@@ -1,6 +1,6 @@
 package homeWorks.homeWork7;
 
-import homeWorks.homeWork4.Person;
+import homeWorks.homeWork7.Person;
 
 public class Pensioner extends Person {
     private double pension;
@@ -18,7 +18,13 @@ public class Pensioner extends Person {
 
     @Override
     public void die() {
+
         System.out.println("Этот пенсионер умер, он заработал: " );
+        int countOfChildren = 0;
+        if(getCountOfChild() != null){
+            countOfChildren = getCountOfChild().size();
+        }
+        System.out.println("Зато у меня " + countOfChildren + " детей!");
     }
 }
 

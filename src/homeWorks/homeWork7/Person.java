@@ -7,15 +7,14 @@ public abstract class Person {
     private int ageOfPerson;
     private int heightOfPerson;
     private int weightOfPerson;
-    private List<String> countOfChild;
+    private List<Person> countOfChild;
 
-    public List<String> getCountOfChild() {
+    public List<Person> getCountOfChild() {
         return countOfChild;
     }
 
-    public int setCountOfChild(List<String> countOfChild) {
+    public void setCountOfChild(List<Person> countOfChild) {
         this.countOfChild = countOfChild;
-        return 0;
     }
 
     public void setNameOfPerson(String nameOfPerson) {

@@ -1,19 +1,16 @@
 package homeWorks.homeWork8;
 
-import homeWorks.homeWork2.PensionFund;
-import homeWorks.homeWork8.AbleToCalculatePension;
-import homeWorks.homeWork8.Person;
-
-import java.util.ArrayList;
+import homeWorks.homeWork5.IsItGoverment;
+import homeWorks.homeWork5.PensionFund;
 import java.util.List;
 
 public class Worker extends Person implements AbleToCalculatePension {
-
-
+    private static final int MONEY_PER_CHILD = 200;
+    private List<Company> companies;
     private int minSalary;
     private int maxSalary;
 
-    private List<String> companies;
+
 
 
 
@@ -37,29 +34,38 @@ public class Worker extends Person implements AbleToCalculatePension {
     public void die() {
 
         System.out.println("Этот человек не дожил до пенсии");
-        System.out.println("Зато у меня " + getCountOfChild().size() + " детей!");
     }
 
     @Override
     public double calculatePension() {
-        PensionFund pensionFund = new PensionFund("money", true, "01.01.2000");
-        int minSalaryWithChild = getCountOfChild().size() * 200 * minSalary;
+        homeWorks.homeWork5.PensionFund pensionFund = new PensionFund("money", IsItGoverment.GOVERMENT, "01.01.2000");
+        int minSalaryWithChild = 0;
+        if (getCountOfChild() != null){
+            minSalaryWithChild = getCountOfChild().size() * MONEY_PER_CHILD + minSalary;
+        }
+
         double state = pensionFund.countOfPension(getAgeOfPerson(),minSalaryWithChild, maxSalary);
         return state;
     }
 
-    public List<String> getCompanies() {
+    public List<Company> getCompanies() {
         return companies;
     }
 
-    public void setCompanies(List<String> companies) {
+    public void setCompanies(List<Company> companies) {
         this.companies = companies;
     }
 
     public void myCompanies(){
-        System.out.println("Я работал в следующих компаниях :");
-        for (String s : companies) {
-            System.out.println(s);
+        System.out.print("Я работал в следующих компаниях : ");
+        boolean start = true;
+        for (Company s : companies) {
+            if(start){
+                System.out.print(s.getName());
+                start = false;
+            }else {
+                System.out.print(", " + s.getName());
+            }
         }
     }
 }

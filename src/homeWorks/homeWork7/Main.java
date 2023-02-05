@@ -9,9 +9,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Worker worker = new Worker();
-        List<String> countOfChild1 = new ArrayList<>();
-        countOfChild1.add("Pety");
-        countOfChild1.add("Nasty");
+        List<Person> countOfChild1 = new ArrayList<>();
+        countOfChild1.add(worker);
+//        countOfChild1.add();
         worker.setAgeOfPerson(45);
         worker.setMaxSalary(2300);
         worker.setMinSalary(1000);
