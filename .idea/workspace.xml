@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork10">
+    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork7/Pensioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/Pensioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork7/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork7/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork7/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork8/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork8/Pensioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/Pensioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork8/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork8/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork9/Pensioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/Pensioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork10/ArrayListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork10/ArrayListImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork11/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork11/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork9/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork9/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +62,26 @@
       <recent name="homeWorks.homeWork4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWorks.homeWork11.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Decryptio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork12.Decryptio" />
+      <module name="first-lesson-prof" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWorks.homeWork12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.lesson10.Main" />
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork12.Main" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons.lesson10.*" />
+          <option name="PATTERN" value="homeWorks.homeWork12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainExis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.lesson7.MainExis" />
+    <configuration name="MainStackTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson12.MainStackTask" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons.lesson7.*" />
+          <option name="PATTERN" value="lessons.lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWorks.homeWork10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork10.Main" />
+    <configuration name="MainTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson12.MainTask2" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork10.*" />
+          <option name="PATTERN" value="lessons.lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWorks.homeWork11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork11.Main" />
+    <configuration name="RecursMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.RecursMain" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homeWorks.homeWork8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork8.Main" />
-      <module name="first-lesson-prof" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork8.*" />
+          <option name="PATTERN" value="lessons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homeWorks.homeWork11.Main" />
-        <item itemvalue="Application.homeWorks.homeWork8.Main" />
-        <item itemvalue="Application.homeWorks.homeWork10.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainExis" />
+        <item itemvalue="Application.Decryption" />
+        <item itemvalue="Application.MainTask2" />
+        <item itemvalue="Application.MainStackTask" />
+        <item itemvalue="Application.RecursMain" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675526709059</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="homeWork11">
+      <created>1675604050238</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675604050238</updated>
+    </task>
+    <task id="LOCAL-00018" summary="homeWork11">
+      <created>1675604124219</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675604124219</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +283,8 @@
     <MESSAGE value="homeWork6" />
     <MESSAGE value="homeWork8" />
     <MESSAGE value="homeWork10" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork10" />
+    <MESSAGE value="homeWork11" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,6 +328,31 @@
           <url>file://$PROJECT_DIR$/src/lessons/lesson10/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lessons/RecursMain.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lessons/RecursMain.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWorks/homeWork12/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWorks/homeWork12/Decryption.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWorks/homeWork12/Decryption.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

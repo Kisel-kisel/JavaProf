@@ -45,14 +45,13 @@ public class Worker extends Person implements AbleToCalculatePension {
     public void die() {
 
         System.out.println("Этот человек не дожил до пенсии");
-        System.out.println("Зато у меня " + getCountOfChild().size() + " детей!");
     }
 
     @Override
     public double calculatePension() {
         double bigerPrice = 0;
         for (PensionFund PensionFund : getPensionFunds()) {
-            double minSalaryWithChild = getCountOfChild().size() * 200 * minSalary;
+            double minSalaryWithChild = getCountOfChild().size() * 200 + minSalary;
             double result = PensionFund.countOfPension(getAgeOfPerson(), minSalaryWithChild, maxSalary);
             if (result > bigerPrice) {
                 bigerPrice = result;

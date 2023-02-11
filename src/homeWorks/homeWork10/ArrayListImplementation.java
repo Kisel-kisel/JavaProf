@@ -26,12 +26,24 @@ public class ArrayListImplementation {
         array = newArray;
     }
     public int size (){
-        return array.length;
+        return size;
     }
 
     @Override
     public String toString() {
         return Arrays.toString(array);
+    }
+
+    public void print(){
+        String arrayList = "[";
+
+        for (int i = 0; i < size; i++) {
+            arrayList += array[i];
+            if (i != size -1){
+                arrayList += ", ";
+            }
+        }
+        arrayList += "]";
     }
 
     public void remove(int index){

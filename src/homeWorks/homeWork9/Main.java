@@ -2,9 +2,6 @@ package homeWorks.homeWork9;
 
 import homeWorks.homeWork5.IsItGoverment;
 import homeWorks.homeWork5.PensionFund;
-import homeWorks.homeWork9.Worker;
-import homeWorks.homeWork9.Company;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

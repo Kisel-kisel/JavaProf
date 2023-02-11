@@ -2,12 +2,6 @@ package homeWorks.homeWork11;
 
 import homeWorks.homeWork5.IsItGoverment;
 import homeWorks.homeWork5.PensionFund;
-import homeWorks.homeWork11.Company;
-import homeWorks.homeWork11.AbleToCalculatePension;
-import homeWorks.homeWork11.Person;
-
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
