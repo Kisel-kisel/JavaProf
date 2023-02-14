@@ -11,6 +11,7 @@ public class MainFotTask {
         NodeGraphSecond fouth = new NodeGraphSecond(null, "fouth");
         NodeGraphSecond fifth = new NodeGraphSecond(null, "fifth");
         NodeGraphSecond sixth = new NodeGraphSecond(null, "sixth");
+        NodeGraphSecond all = new NodeGraphSecond(null, "All");
 
         List<NodeGraphSecond> linksFirst = new ArrayList<>();
         linksFirst.add(second);
@@ -29,6 +30,15 @@ public class MainFotTask {
         List<NodeGraphSecond> linksSixth = new ArrayList<>();
         linksSixth.add(third);
         sixth.setLinks(linksSixth);
+
+        List<NodeGraphSecond> linksAll = new ArrayList<>();
+        linksAll.add(first);
+        linksAll.add(second);
+        linksAll.add(third);
+        linksAll.add(fouth);
+        linksAll.add(fifth);
+        linksAll.add(sixth);
+        all.setLinks(linksAll);
 
 
     }

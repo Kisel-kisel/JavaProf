@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Encryption encryption = new Encryption();
         Stack<Character> encryptionStack = new Stack<>();
-        String string = "Hello, how are you ?";
+        String string = "гороДрд еи!яьзугалБ ярадоишав ирп ммаремоп я ,алян отч м йом дотен лыбину еасревмыньл.";
         encryption(string,encryptionStack);
 
         Decryption example = new Decryption();
