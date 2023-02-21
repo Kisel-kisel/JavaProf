@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="LESSON15">
+    <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="homeWork14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWorks/homeWork12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson15/MainFotTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson15/MainFotTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +58,27 @@
       <recent name="homeWorks.homeWork4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mainGraph">
-    <configuration name="AlgHome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.AlgHome" />
+  <component name="RunManager" selected="Application.homeWorks.homeWork15.Main">
+    <configuration name="AlgHomeWork4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgHomeWork4" />
       <module name="first-lesson-prof" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Alphabet" />
+      <module name="first-lesson-prof" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork12.Main" />
+      <option name="MAIN_CLASS_NAME" value="homeWorks.homeWork15.Task1.Main" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorks.homeWork12.*" />
+          <option name="PATTERN" value="homeWorks.homeWork15.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,21 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.TaskFour" />
-      <module name="first-lesson-prof" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.ThirdTask" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.Test" />
       <module name="first-lesson-prof" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWorks.homeWork15.Main" />
+        <item itemvalue="Application.AlgHomeWork4" />
+        <item itemvalue="Application.Alphabet" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.mainGraph" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TaskFour" />
-        <item itemvalue="Application.ThirdTask" />
-        <item itemvalue="Application.AlgHome" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676315899954</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="homeWork14">
+      <created>1676403453090</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676403453090</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,7 +299,8 @@
     <MESSAGE value="homeWork12" />
     <MESSAGE value="homeWork13" />
     <MESSAGE value="LESSON15" />
-    <option name="LAST_COMMIT_MESSAGE" value="LESSON15" />
+    <MESSAGE value="homeWork14" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -380,6 +374,11 @@
           <url>file://$PROJECT_DIR$/src/lessons/lesson15/TaskGraph.java</url>
           <line>2</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lessons/lesson16/Something.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
