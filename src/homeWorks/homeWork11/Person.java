@@ -1,5 +1,7 @@
 package homeWorks.homeWork11;
 
+import lessons.lesson5.Sex;
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -10,6 +12,16 @@ public abstract class Person implements Comparable<Person> {
     private int heightOfPerson;
     private int weightOfPerson;
     private List<Person> countOfChild;
+    private Sex sex;
+
+    public Sex getSex() {
+        return sex;
+    }
+
+    public void setSex(Sex sex) {
+        this.sex = sex;
+    }
+
     Set<Person> comp;
     private Iterator iterator;
 
@@ -116,6 +128,7 @@ public abstract class Person implements Comparable<Person> {
 
 
     }
+
 
 }
 
