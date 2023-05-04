@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36cde6f6-7b67-4ac9-afae-edeb567fd348" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/src/lessons/reflection/homeWork/ForAnnotaition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/reflection/homeWork/ForAnnotaition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/reflection/homeWork/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/reflection/homeWork/HomeWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683226287437</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="new">
+      <created>1683226439087</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683226439087</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
