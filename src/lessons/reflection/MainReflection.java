@@ -13,6 +13,7 @@ public class MainReflection {
 
         Person person = new Person();
         Class clas = person.getClass();
+        System.out.println(clas.getName());
 //        Constructor[] constructors = clas.getConstructors();
 //        System.out.println(Arrays.toString(constructors));
         Method[] method = clas.getMethods();
